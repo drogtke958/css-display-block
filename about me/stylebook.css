@@ -1,0 +1,30 @@
+body {
+    background-color: lightsteelblue;
+}
+
+header, nav, main, article, aside, footer {
+    border: 4px solid darkblue;
+    margin: 12px;
+    padding: 10px;
+}
+
+article {
+    float: left;
+    width: 65%;
+} 
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+main {
+    overflow: hidden;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(254, 213, 191, 0.885);
+}
+
+header, nav, main, article, aside, footer {
+    border: 4px solid rgba(243, 84, 84, 0.792);
+    margin: 12px;
+    padding: 10px;
+}
+
+article {
+    float: left;
+    width: 65%;
+} 
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+main {
+    overflow: hidden;
+}
